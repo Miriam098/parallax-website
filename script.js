@@ -7,12 +7,12 @@ function toggleNav() {
     nav.classList.remove("active");
 
     // adds the menu (hamburger) icon
-    toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
+    toggle.querySelector("a").innerHTML = "<i class=’fa fa-bars’></i>";
   } else {
     nav.classList.add("active");
 
     // adds the close (x) icon
-    toggle.querySelector("a").innerHTML = "<i class=’fas fa-times’></i>";
+    toggle.querySelector("a").innerHTML = "<i class=’fa fa-times’>x</i>";
   }
 }
 
