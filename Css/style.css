@@ -109,8 +109,8 @@ a {
 }
 
 .section-light {
-  background-color: #f4f4f4;
-  color: #666;
+  background-color: #666;
+  color: rgb(236, 231, 231);
 }
 
 .section-dark {
@@ -137,6 +137,35 @@ a {
 
 .ptext .border .trans {
   background-color: transparent;
+}
+
+/*Contact page */
+.contact-icons,
+.contact-icons li {
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-icons {
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.contact-icons li {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.contact-icons i {
+  font-size: 15em;
+  margin-right: 0.5em;
+  color: #f4f4f4;
 }
 
 /*Media Queries*/
